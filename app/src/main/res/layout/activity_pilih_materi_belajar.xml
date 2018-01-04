@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.singpaulee.bangundatardanbangunruang.PilihMateriBelajar">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_pmb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:minHeight="?attr/actionBarSize">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/bangmat3"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:background="#ffff"
+                android:layout_height="wrap_content">
+
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ScrollView
+                    android:id="@+id/firstTabx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/firstTab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/persegi"
+                            style="@style/CategoryStyle"
+                            android:background="@drawable/likebutton"
+                            android:text="PERSEGI" />
+                        <TextView
+                            android:id="@+id/persegi_panjang"
+                            style="@style/CategoryStyle"
+                            android:background="@drawable/persegipanjang"
+                            android:text="PERSEGI PANJANG" />
+                        <TextView
+                            android:id="@+id/segitiga"
+                            style="@style/CategoryStyle"
+                            android:background="@drawable/bgtvsegitiga"
+                            android:text="SEGITIGA" />
+                        <TextView
+                            android:id="@+id/jajar_genjang"
+                            style="@style/CategoryStyle"
+                            android:background="@drawable/bgtvjgenjang"
+                            android:text="JAJAR GENJANG" />
+                        <TextView
+                            android:id="@+id/layang_layang"
+                            style="@style/CategoryStyle"
+                            android:background="@drawable/bgtvlayang2"
+                            android:text="LAYANG-LAYANG" />
+                        <TextView
+                            android:id="@+id/belah_ketupat"
+                            style="@style/CategoryStyle"
+                            android:background="@drawable/bgtvbketupat"
+                            android:text="BELAH KETUPAT" />
+                        <TextView
+                            android:id="@+id/trapesium"
+                            style="@style/CategoryStyle"
+                            android:background="@drawable/bgtvtrapesium"
+                            android:text="TRAPESIUM" />
+                        <TextView
+                            android:id="@+id/lingkaran"
+                            style="@style/CategoryStyle"
+                            android:background="@drawable/bgtvlingkaran"
+                            android:text="LINGKARAN" />
+                    </LinearLayout>
+                </ScrollView>
+
+                <ScrollView
+                    android:id="@+id/secondTabx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/secondTab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/kubus"
+                            style="@style/CategoryStyle2"
+                            android:background="@drawable/bgtvkubus"
+                            android:text="KUBUS" />
+                        <TextView
+                            android:id="@+id/balok"
+                            style="@style/CategoryStyle2"
+                            android:background="@drawable/bgtv_balok"
+                            android:text="BALOK" />
+                        <TextView
+                            android:id="@+id/tabung"
+                            style="@style/CategoryStyle2"
+                            android:background="@drawable/bgtv_tabung"
+                            android:text="TABUNG" />
+                        <TextView
+                            android:id="@+id/kerucut"
+                            style="@style/CategoryStyle2"
+                            android:background="@drawable/bgtv_kerucut"
+                            android:text="KERUCUT" />
+                        <TextView
+                            android:id="@+id/bola"
+                            style="@style/CategoryStyle2"
+                            android:background="@drawable/bgtv_bola"
+                            android:text="BOLA" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

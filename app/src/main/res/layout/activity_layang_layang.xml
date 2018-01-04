@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#72bfbf">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:minHeight="?attr/actionBarSize">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/bangmat3"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/NamaBangun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LAYANG_LAYANG" />
+
+            <ImageView
+                style="@style/gambarBangun"
+                android:src="@drawable/layang_layang" />
+
+            <LinearLayout
+                android:id="@+id/line_subly"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_subly"
+                    style="@style/subtitle"
+                    android:drawableLeft="@drawable/atas2"
+                    android:background="@drawable/bgtextmateri"
+                    android:text="  Sifat-Sifat Layang-Layang" />
+                <LinearLayout
+                    style="@style/subIsi">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sifat_persegi"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line_rumly"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_rumly"
+                    style="@style/subtitle"
+                    android:background="@drawable/bgtextmateri"
+                    android:drawableLeft="@drawable/atas2"
+                    android:text="  Rumus-Rumus Layang-Layang" />
+
+                <LinearLayout
+                    style="@style/subIsi">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- \t Menghitung Luas" />
+
+                    <TextView
+                        style="@style/rumus"
+                        android:text="L = s x s" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- \t Menghitung Keliling" />
+
+                    <TextView
+                        style="@style/rumus"
+                        android:text="k = 4 x s" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- \t Menghitung Sisi" />
+
+                    <TextView
+                        style="@style/rumus"
+                        android:text="s = k / 4 (jika diketahui kelilingnya)\ns = √L (jika diketahui luasnya)" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/line_conly"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_conly"
+                    style="@style/subtitle"
+                    android:drawableLeft="@drawable/atas2"
+                    android:background="@drawable/bgtextmateri"
+                    android:text="  Contoh Soal" />
+                <LinearLayout
+                    style="@style/subIsi">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/soal_persegi"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bahas_persegi"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

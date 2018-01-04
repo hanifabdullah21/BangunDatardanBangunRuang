@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bghardx3"
+    tools:context="com.singpaulee.bangundatardanbangunruang.LevelSulit">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_sulit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:minHeight="?attr/actionBarSize">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/bangmat3"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ProgressBar
+        android:id="@+id/pbhrizontal3"
+        android:layout_below="@id/toolbar_sulit"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressTint="#ffff"
+        android:max="25" />
+    <ProgressBar
+        android:id="@+id/pbhrizontal4"
+        android:layout_below="@id/toolbar_sulit"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="25" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/line_nyawas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/pbhrizontal4">
+        <ImageView
+            android:id="@+id/nyawa00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nyawa2"/>
+        <ImageView
+            android:id="@+id/nyawa02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nyawa2"/>
+        <ImageView
+            android:id="@+id/nyawa03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nyawa2"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_soals"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="scasas"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:background="@drawable/bgsoalhard2xxx"
+        android:textColor="#333333"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/line_nyawas"/>
+    <RadioGroup
+        android:id="@+id/rg_jawabans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+
+        android:layout_below="@id/tv_soals">
+        <RadioButton
+            android:id="@+id/rbaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdasxasxa"
+            android:textColor="#000000"
+            android:buttonTint="#202020"
+            android:layout_marginTop="8dp"/>
+        <RadioButton
+            android:id="@+id/rbbb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:buttonTint="#202020"
+            android:layout_marginTop="8dp"/>
+        <RadioButton
+            android:id="@+id/rbcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:buttonTint="#202020"
+            android:layout_marginTop="8dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_nexts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginRight="10dp"
+        android:text="LANJUT"
+        android:layout_below="@id/rg_jawabans"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:background="@color/bgppersegix"
+        android:drawable="@color/bgppersegix">
+    </item>
+    <item
+        android:state_pressed="false"
+        android:background="@color/bgppersegi"
+        android:drawable="@color/bgppersegi">
+    </item>
+
+</selector>

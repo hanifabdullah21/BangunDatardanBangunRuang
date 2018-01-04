@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4254b4</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgmain">#89b8e9</color>
+    <color name="putih">#fdffca</color>
+    <color name="bgpersegi">#f46a6a</color>
+    <color name="bgpersegix">#e16363</color>
+    <color name="bgppersegi">#fcb06d</color>
+    <color name="bgppersegix">#fda251</color>
+    <color name="bgsegitiga">#e6df5d</color>
+    <color name="bgsegitigax">#dad33f</color>
+    <color name="bgjgenjang">#8bd763</color>
+    <color name="bgjgenjangx">#6cbf40</color>
+    <color name="bglayang2">#7bf1d1</color>
+    <color name="bglayang2x">#61d7b7</color>
+    <color name="bgbelahk">#6171ca</color>
+    <color name="bgbelahkx">#4d60c7</color>
+    <color name="bgtrapesium">#c170d1</color>
+    <color name="bgtrapesiumx">#b855cc</color>
+    <color name="bglingkaran">#f566a6</color>
+    <color name="bglingkaranx">#ef5298</color>
+    <color name="bgkubus">#d39aff</color>
+    <color name="bgkubusx">#bb80e9</color>
+    <color name="bgbalok">#aaff6e</color>
+    <color name="bgbalokx">#88d94e</color>
+    <color name="bgkerucut">#e979a8</color>
+    <color name="bgkerucutx">#d96596</color>
+    <color name="bgtabung">#69e2fa</color>
+    <color name="bgtabungx">#5ccde4</color>
+    <color name="bgbola">#ffef72</color>
+    <color name="bgbolax">#e6d65e</color>
+    <color name="bgselectmain">#FF759BC4</color>
+</resources>

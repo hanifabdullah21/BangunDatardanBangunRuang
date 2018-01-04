@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.singpaulee.bangundatardanbangunruang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="BankMat"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label=""
+            android:screenOrientation="portrait">
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity
+            android:name=".PilihMateriBelajar"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Persegi"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Segitiga"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PersegiPanjang"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Lingkaran"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".JajarGenjang"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".BelahKetupat"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".LayangLayang"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Trapesium"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Kuis"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".LevelMudah"
+            android:configChanges="orientation"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LevelSulit"
+            android:configChanges="orientation"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KuisKalah"
+            android:configChanges="orientation"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KuisMenang"
+            android:configChanges="orientation"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".kubus"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Balok"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Tabung"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Kerucut"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />></activity>
+        <activity
+            android:name=".Bola"
+            android:configChanges="orientation"
+            android:label=""
+            android:parentActivityName=".PilihMateriBelajar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

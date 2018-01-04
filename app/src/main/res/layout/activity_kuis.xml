@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e6e6"
+    tools:context="com.singpaulee.bangundatardanbangunruang.Kuis">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_kuis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:minHeight="?attr/actionBarSize">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/bangmat3"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/img_kuis"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/toolbar_kuis"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_pilkuis2"/>
+    <Spinner
+        android:id="@+id/spn_level"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/img_kuis"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/border_spinner"
+        android:layout_centerHorizontal="true">
+    </Spinner>
+    <Button
+        android:id="@+id/btn_mulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULAI"
+        android:layout_below="@id/spn_level"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

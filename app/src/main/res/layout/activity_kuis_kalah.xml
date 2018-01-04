@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dadada"
+    tools:context="com.singpaulee.bangundatardanbangunruang.KuisKalah">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_kalah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:minHeight="?attr/actionBarSize">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/bangmat3"/>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgkalah"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@drawable/kalahdanbo"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/tvkalah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgkalah"
+            android:text="YAH\nKALAH"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/tvpersen"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="100%"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:background="@drawable/textpersen"
+            android:layout_below="@id/tvkalah"
+            android:layout_toRightOf="@id/imgkalah"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/mainlagik"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="MAIN LAGI"
+        android:layout_gravity="center"
+        android:background="@drawable/mainlagi2"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/gantilevelk"
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/mainlagi"
+        android:text="GANTI LEVEL"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/belajarduluk"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mainlagi3"
+        android:gravity="center"
+        android:text="BELAJAR DULU"
+        android:textSize="24dp" />
+</LinearLayout>

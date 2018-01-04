@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cecece"
+    tools:context="com.singpaulee.bangundatardanbangunruang.KuisMenang">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_menang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:minHeight="?attr/actionBarSize">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/bangmat3"/>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgmenang"
+            android:layout_width="200dp"
+            android:layout_height="260dp"
+            android:src="@drawable/menangdanbo2"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/tvmenang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgmenang"
+            android:text="SELAMAT\nKAMU\nMENANG"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/tvpersenm"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="100%"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:background="@drawable/textpersen"
+            android:layout_below="@id/tvmenang"
+            android:layout_toRightOf="@id/imgmenang"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mainlagim"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="MAIN LAGI"
+        android:layout_gravity="center"
+        android:background="@drawable/mainlagi2"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/gantilevelm"
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/mainlagi"
+        android:text="GANTI LEVEL"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/belajardulum"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/mainlagi3"
+        android:textSize="24dp"
+        android:text="BELAJAR DULU"/>
+</LinearLayout>

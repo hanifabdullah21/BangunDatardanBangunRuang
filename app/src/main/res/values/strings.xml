@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bangun Datar dan Bangun Ruang</string>
+    <string name="sifat_persegi">1.\t Semua sisi-sisinya panjangnya sama dan semua sisinya berhadapan sejajar\n
+        2.\t Setiap sudut yang dimilikinya siku-siku\n
+        3.\t Mempunyai dua diagonal yang panjangnya sama dan berpotongan di tengah-tengah serta membentuk sudut siku-siku\n
+        4.\t Setiap sudutnya dibagi dua sama besar oleh diagonalnya\n
+        5.\t Mempunyai 4 buah sumbu simetri</string>
+    <string name="soal_persegi">Sebuah persegi ABCD memiliki sisi 7 cm, tentukan luas dan keliling bangun tersebut!</string>
+    <string name="bahas_persegi">s = 7cm\n
+        L = s x s, maka L = 7 x 7\n L = 49 cm(cm kuadrat)\n
+        k = 4 x s, maka k = 4 x 7\n k = 28cm</string>
+
+</resources>
